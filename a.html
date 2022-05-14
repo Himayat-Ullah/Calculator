@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+        <title>Calculator</title>
+    </head>
+
+<body>
+    <div class="maindiv">
+        <input type="text" id="inputField" disabled/>
+        <input class="btn2" type="button" value="ce" onclick="a()"/>
+        <input class="btn1" type="button" value="1" onclick="dis('1')" />
+        <input class="btn1" type="button" value="2" onclick="dis('2')" />
+        <input class="btn1" type="button" value="3" onclick="dis('3')" />
+        <input class="btn1" type="button" value="/" onclick="dis('/')" />
+
+        <input class="btn1" type="button" value="4" onclick="dis('4')" />
+        <input class="btn1" type="button" value="5" onclick="dis('5')" />
+        <input class="btn1" type="button" value="6" onclick="dis('6')" />
+        <input class="btn1" type="button" value="-" onclick="dis('-')" />
+
+        <input class="btn1" type="button" value="7" onclick="dis('7')" />
+        <input class="btn1" type="button" value="8" onclick="dis('8')" />
+        <input class="btn1" type="button" value="9" onclick="dis('9')" />
+        <input class="btn1" type="button" value="+" onclick="dis('+')" />
+
+        <input class="btn1" type="button" value="c" onclick="clr()"/>
+        <input class="btn1" type="button" value="0" onclick="dis('0')" />
+        <input class="btn1" type="button" value="=" onclick="solve()" />
+        <input class="btn1" type="button" value="*" onclick="dis('*')" />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

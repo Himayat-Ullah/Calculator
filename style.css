@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.maindiv {
+  background-color: black;
+  width: 472px;
+  height: 550px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+#inputField {
+  width: 70%;
+  height: 75px;
+  background-color: black;
+  color: white;
+  /* border: 1px solid black; */
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 13px;
+  /* border: 2px solid rgb(51, 7, 7); */
+  -moz-appearance: none;
+  padding-right: 70px;
+  padding: 30px;
+  border-radius: 30px;
+  /* margin-right: 10px; */
+  float: left;
+}
+.maindiv div {
+  width: 115px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.btn1 {
+  width: 118px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding-top: 0px;
+  float: left;
+  border: none;
+}
+.btn2 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding-top: 0px;
+  float: left;
+  border: none;
+}
+.btn2:hover {
+  background-color: #34282c;
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+  border: 1px solid brown;
+}
+.btn1:hover {
+  background-color: #34282c;
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+  border: 1px solid brown;
+}
+.maindiv div:hover {
+  background-color: #34282c;
+  color: white;
+  font-size: 32px;
+}
+#double {
+  width: 230px;
+}
